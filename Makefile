@@ -3,4 +3,4 @@ Z1:
 Z2:
 	python -m flask run
 Z3:
-	pylint app.py
+	python -m pylint app.py
