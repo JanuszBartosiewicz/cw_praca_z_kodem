@@ -8,7 +8,7 @@ def index():
     return render_template('index.html')
 
 
-@app.route('/hello/')
+@app.route('/hello')
 @app.route('/hello/<name>')
-def hello():
+def hello(name=None):
     return render_template('hello.html', name="Jan")
